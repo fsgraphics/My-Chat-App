@@ -10,6 +10,8 @@ const dotenv = require("dotenv")
 // configuration
 dotenv.config()
 app = express()
+// MongoDB Database Connection
+
 
 
 
