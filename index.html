@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
     <link rel="shortcut icon" href="./public/images/Fs-logo.jpg" />
-    <link rel="stylesheet" href="./public/stylesheets/style.css">
+    <link rel="stylesheet" href="./public/stylesheets/style.css" />
   </head>
   <body>
     <!-- Navigation Header start -->
@@ -16,30 +16,28 @@
     </div>
     <!-- Navigation Header End -->
 
-    <!-- Login Container Strt  -->
+    <!-- Login Container Start  -->
     <div id="login-container">
-      <div id="left-column">Fazle Hasan</div>
+      <div id="left-column"></div>
       <div id="branding">
         <img class="logo" src="./public/images/Fs-logo.jpg" alt="Fs-logo" />
         <h1>Login - Chat Application</h1>
       </div>
+      <!-- Login Form Start Hear  -->
+      <div id="login-form">
+        <form method="post" action="/">
+          <input
+            type="text"
+            name="username"
+            placeholder="enter mobile or email"
+            value="" />
+          <p class="error show">Error message here</p>
+          <input type="password" name="password" placeholder="enter password" />
+          <input type="submit" value="Login" />
+        </form>
+      </div>
+      <!-- Login Form End Hear  -->
     </div>
     <!-- Login Container End  -->
-
-    <!-- Login Form Start Hear  -->
-    <div id="login-form">
-      <form method="post" action="/">
-        <input
-          type="text"
-          name="username"
-          placeholder="enter mobile Or email"
-          value=""
-        />
-        <p class="error show">Error message here</p>
-        <input type="password" name="password" placeholder="enter password" />
-        <input type="submit" value="Login" />
-      </form>
-    </div>
-    <!-- Login Form End Hear  -->
   </body>
 </html>
