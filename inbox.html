@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link rel="shortcut icon" href="./public/images/Fs-logo.jpg" />
+    <link rel="stylesheet" href="./public/stylesheets/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Header start -->
+    <div class="menu">
+      <div class="menu-item"><a href="/inbox">Inbox</a></div>
+      <div class="menu-item"><a href="/users">Users</a></div>
+      <div class="menu-item"><a href="/">Login</a></div>
+    </div>
+    <!-- Navigation Header End -->
+    <div id="chat-container">
+        <div id="search-container">
+            <input type="text" placeholder="Search" />
+          </div>
+          
+    </div>
+
+
+
+
+
+
+    
+
+
+      <div id="conversation-list">
+        <div class="conversation active">
+          <img src="./public/images/user1.png" alt="Fazle" />
+          <div class="title-text">Fazle Hasan</div>
+          <di class="create-data">Apr 16</di>
+          <div class="conversation-message">This is a message</div>
+        </div>
+        <div class="conversation">
+          <img src="./public/images/user2.png" alt="Safa" />
+          <div class="title-text">Safa Moni</div>
+          <di class="create-date">Apr 16</di>
+          <div class="conversation-message">This is message</div>
+        </div>
+        <div id="new-message-container">
+          <a href="#">+</a>
+        </div>
+        <div id="chat-title">
+          <span>Fazle</span>
+          <img src="./public/images/trash.png" alt="Delete Conversation" />
+        </div>
+        <div id="chat-message-list">
+          <div class="message-row other-message">
+            <div class="message-content">
+              <img src="./public/images/user1.png" alt="Fazle" />
+              <div class="message-text">Ok then</div>
+              <div class="message-time">Apr 16</div>
+            </div>
+          </div>
+          <div class="message-row you-message">
+            <div class="message-content">
+              <div class="message-content">
+                <div class="message-text">Lorem ipsum dolor sit amet</div>
+                <div class="message-time">Apr 16</div>
+              </div>
+            </div>
+          </div>
+          <div id="chat-form">
+            <img src="./public/images/attachment.png" alt=Add Attachment""/>
+            <input type="text" placeholder="Type a message" />
+          </div>
+        </div>
+        <div class="modal-wrapper">
+          <div class="model">
+            <a href="#" class="modal-close">+</a>
+          </div>
+          <div class="modal-title">
+            <h2>Create New Conversation</h2>
+          </div>
+          <div class="model-body">
+            <form action="#">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Username" />
+              <input type="button" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+  </body>
+</html>
